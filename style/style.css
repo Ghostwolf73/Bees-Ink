@@ -1,0 +1,45 @@
+* {
+    background-color: black;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: white;
+
+}
+
+.nav-bar h1{
+    color: white;
+}
+
+span{
+    color: yellow;
+}
+
+
+.nav-bar li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover{
+    color: yellow;
+    transition: .3s;
+}
+
+.nav-bar ul li.active a {
+    color: yellow;
+    
+}
