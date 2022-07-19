@@ -1,32 +1,25 @@
 * {
-    background-color: black;
     font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 0px;
 }
 
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
-    padding-right: 10%;
-    padding-left: 10%;
+    margin-left: 38%;
+    padding-top: 25px;
+    padding-bottom: 25px;
     color: white;
-
+    background-color: transparent;
+    position: fixed;
 }
-
-.nav-bar h1{
-    color: white;
-}
-
-span{
-    color: yellow;
-}
-
 
 .nav-bar li{
     list-style: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding-right: 50px;
+    text-align: center;
 }
 
 .nav-bar a {
@@ -41,5 +34,44 @@ span{
 
 .nav-bar ul li.active a {
     color: yellow;
+    
+}
+
+.main {
+    background-image: url('../images/young-woman-1968474.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+    /* margin-top: 25px; */
+}
+
+.main h1{
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    font-size: 100px
+}
+
+span {
+    color: yellow;
+}
+
+.text {
+    margin: 150px;
+    text-align: center;
+    color: yellow;
+}
+
+.column {
+    display: flex;
+}
+
+.left-side {
+    flex: 2;
+}
+
+.right-side {
+    flex: 1;
     
 }
